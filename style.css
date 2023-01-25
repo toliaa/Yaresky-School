@@ -168,7 +168,9 @@ div#blocksteachers{
     align-items: center;
     border-radius: 20px;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    display: grid;
+    flex-wrap: wrap;
     
     
 }
