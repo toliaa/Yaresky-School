@@ -33,7 +33,6 @@ body{
 div#menu{
     padding-top: 20px;
 }
-
 button#header{
   border: 1px solid;
   border-radius: 10px;
@@ -64,6 +63,7 @@ div#news{
     border-radius: 10px;
     display: inline-flex;
     text-align: center;
+    
     
     
 }
@@ -266,7 +266,7 @@ span#history{
 
 div#grid{
     background-color: rgb(253, 243, 231);
-    border: 1px ridge;
+    border: 1px solid;
     border-color: black;
    
      
@@ -298,15 +298,10 @@ button#newsbuttons{
   font-family: 'Comfortaa', cursive;
   background-color: rgb(255, 253, 250);
 }
-div#github{
-    text-align: center;
-    height: 30px;
-}
-img#github{
-    height: 20px;
-    width: 20px;
-    padding-left: 10px; 
-}
 div#wrapper{
-    padding: 10px;
+    padding-top: 10px;
+}
+div#main{
+    
+    
 }
