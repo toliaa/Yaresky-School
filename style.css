@@ -160,11 +160,19 @@ div#teachers{
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px;
+
     
     
    
  
     
+}
+div#teachers:hover{
+    background-color:bisque;
+    transition: 2000ms;
+    
+    border-color: rgb(222, 135, 135);
 }
 h1#teachers{
     font-family: 'Exo 2', sans-serif;
@@ -324,9 +332,12 @@ div#teacherss:hover{
     border-radius: 20px;
     box-shadow: 10px 10px 10px white;
 }
-span#number,p#specialization{
+span#number{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1px;
+}
+p#specialization{
+    font-family: 'Bad Script', cursive;
 }
 
 .parent {
@@ -337,5 +348,7 @@ span#number,p#specialization{
     grid-row-gap: 4px;
     flex-wrap: wrap;
     display: flex;
+    padding: 20px;
+
     
 }
