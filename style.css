@@ -1,4 +1,5 @@
 /*header of the site*/
+
 header{
     display: flex;
     padding: 10px;
@@ -11,6 +12,7 @@ header{
 
 
 /* image in header */
+
 img#logo{
     width: 97px;
     height: 100px;
@@ -18,21 +20,27 @@ img#logo{
 }
 
 /* name of the site + applies to all h1, on all pages that use style.css */
+
 h1{
     font-size: medium;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
 /* background color all pages */
 
 body{
     background-color: #FFEDE8;
 }
 
+/* menu of buttons on the header */
+
 div#menu{
     padding-top: 20px;
 }
+/* style for menu buttons on header */
+
 button#header{
   border: 1px solid;
   border-radius: 10px;
@@ -40,22 +48,17 @@ button#header{
   background-color: rgb(255, 253, 250);
 
 }
+/* hover for menu buttons on header */
+
 button#header:hover{
     padding:2px;
     transition: 1000ms;
     background-color: aliceblue;
 }
-div#imagegallery{
-   padding: 20px;
-   padding-left: 40px;
-   
-    
-}
-iframe#post{
-    border-radius: 10px;
-    border: 1px solid;
-   
-}
+
+
+/* blocks of news on index.html */
+
 div#news{
     background-color: aliceblue;
     width: 300px;
@@ -67,6 +70,8 @@ div#news{
     
     
 }
+/* hover blocks of news on index.html */
+
 div#news:hover{
     background-color: #fef3e1;
     transition: 1000ms;
@@ -74,44 +79,54 @@ div#news:hover{
     padding-right: 10px;
    
 }
+
+
 h2{
     font-family: 'Sofia Sans', sans-serif;
     padding-left: 10px;
 }
+/* style of news h2  */
+
 h2#newsheader{
     font-family: 'Mulish', sans-serif;
 }
+/* p style that applies to all p on pages */
+
 p{
     font-family: 'Mulish', sans-serif;
     padding-left: 10px;
 }
-button#newsbutton{
-    border: 0px;
-    
-}
+
+/* span style that applies to text  Усі новини */
+
 span#nextnews{
     padding: 5px;
     color: black;
 }
-span#nextnews:hover{
-    color: aliceblue;
-}
+/* span style that applies to symbol element on the index.html */
+
 span#symbolelement{
     padding: 5px;
 }
+/* style of the main on the page in index.html */
+
 div#main{
     text-align: center;
 }
+/* a style that applies to all a on pages */
+
 a{
     text-decoration: none;
     color: black;
 }
+
 footer{
     font-family: 'Mulish', sans-serif;
     margin-top: 20px;
     padding-left: 10px;
-    text-align: center;
+   
 }
+
 div#buttonsmain{
     padding-bottom: 10px;
     background-color: aliceblue;    
@@ -119,11 +134,7 @@ div#buttonsmain{
     text-align: center;
     
 }
-div#mainnewsb{
-    padding-top: 50px;
-    text-align: center;
-    flex-wrap: nowrap;
-}
+
 div#mainnews{
 background-color: aliceblue;
 width: 300px;
@@ -145,11 +156,11 @@ div#mainsymboloftheschool{
     
 }
 div#teachers{
-    background-color: rgba(244, 246, 248, 0.499);
+    background-color: rgb(244, 246, 248);
     text-align: center;
     align-items: center;
-    display: grid;
-    gap: 10px 20px;
+    flex-wrap: wrap;
+    
     
    
  
@@ -169,9 +180,7 @@ div#blocksteachers{
     align-items: center;
     border-radius: 20px;
    
-   display: grid;
-   flex-wrap: wrap;
-    
+  
     
 }
 div#blocksteachers:hover{
@@ -244,10 +253,6 @@ div#gurtok{
     background-color: rgb(248, 236, 222);
     border-radius: 10px;
 }
-h2#forpupils{
-    
-    
-}
 h2#aboutschool{
    
     opacity: 1px;
@@ -301,7 +306,36 @@ button#newsbuttons{
 div#wrapper{
     padding-top: 10px;
 }
-div#main{
-    
+div#teacherss{
+   background-color: aliceblue;
+   text-align: center;
+   font-family: 'Mulish', sans-serif;
+   border: 1px solid;
+   padding: 10px;
+   padding-top:10px ;
+}
+div#teach{
+    padding: 20px;
+}
+div#teacherss:hover{
+    border: 1px dashed;
+    background-color: rgb(253, 243, 231);
+    transition: 1000ms;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px white;
+}
+span#number,p#specialization{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    flex-wrap: wrap;
+    display: flex;
     
 }
