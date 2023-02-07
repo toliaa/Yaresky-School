@@ -112,6 +112,8 @@ span#symbolelement{
 
 div#main{
     text-align: center;
+    align-items: center;
+    padding-top: 20px;
 }
 /* a style that applies to all a on pages */
 
