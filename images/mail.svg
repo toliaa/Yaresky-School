@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<path d="M41.798,33.763v-18c0-0.513-0.39-0.919-0.887-0.977c-0.009-0.002-0.017-0.004-0.025-0.005
-	c-0.03-0.003-0.057-0.018-0.088-0.018h-30c-0.032,0-0.06,0.015-0.091,0.018c-0.065,0.006-0.126,0.019-0.189,0.038
-	c-0.065,0.019-0.125,0.041-0.183,0.072c-0.053,0.028-0.1,0.062-0.147,0.099c-0.056,0.044-0.105,0.09-0.151,0.145
-	c-0.019,0.023-0.045,0.035-0.062,0.06c-0.019,0.027-0.022,0.06-0.038,0.088c-0.034,0.06-0.059,0.12-0.08,0.187
-	c-0.02,0.065-0.033,0.129-0.039,0.196c-0.003,0.033-0.019,0.062-0.019,0.096v18c0,0.553,0.447,1,1,1h30
-	C41.351,34.763,41.798,34.315,41.798,33.763z M37.502,16.763l-11.745,8.092l-11.745-8.092H37.502z M11.798,32.763V17.666
-	l13.392,9.227c0.171,0.118,0.369,0.177,0.567,0.177s0.396-0.059,0.567-0.177l13.474-9.283v15.153H11.798z"/>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#585555" height="64px" width="64px" version="1.1" id="XMLID_7_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-15.36 -15.36 54.72 54.72" enable-background="new 0 0 24 24" xml:space="preserve" stroke="#585555" stroke-width="0.00024000000000000003">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0">
+
+<path transform="translate(-15.36, -15.36), scale(3.42)" fill="#fef3e1" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"/>
+
+</g>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <g id="social-email"> <path d="M0,3v18h24V3H0z M21.9,5L12,13.1L2.1,5H21.9z M2,19V7.5l10,8.2l10-8.2V19H2z"/> </g> </g>
+
 </svg>
