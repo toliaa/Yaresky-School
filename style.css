@@ -66,9 +66,10 @@ div#news{
     background-color: aliceblue;
     width: 300px;
     height:450px;
-    border-radius: 10px;
+    border: 2px solid #FFEDE8;
     display: inline-flex;
     text-align: center;
+    border-radius:20px;
     
     
     
@@ -124,6 +125,7 @@ a{
     text-decoration: none;
     color: black;
 }
+/* footer style that applies to all footers on pages */
 
 footer{
     font-family: 'Mulish', sans-serif;
@@ -132,14 +134,7 @@ footer{
     text-align: center;
    
 }
-
-div#buttonsmain{
-    padding-bottom: 10px;
-    background-color: aliceblue;    
-    font-weight: 100px;
-    text-align: center;
-    
-}
+/* div id="mainnews" style that applies to all blocks mainnews on pages */
 
 div#mainnews{
 background-color: aliceblue;
@@ -151,16 +146,24 @@ text-align: center;
 margin-left: 5px;
 padding-top: 20px;
 flex-wrap: wrap;
-grid-gap:20px;
+
+border: 2px solid #FFEDE8;
 }
+
 h2#simbof{
   border-bottom: 1px dashed;
 }
+/* div id="mainsymbolsoftheschool" style that applies to symboloftheschool on page */
+
 div#mainsymboloftheschool{
     text-align: center;
+    align-items: center;
     
     
 }
+
+/* div id="teachers" style that applies to teachers.html */
+
 div#teachers{
     background-color: rgb(244, 246, 248);
     text-align: center;
@@ -316,6 +319,12 @@ button#newsbuttons{
   border-radius: 10px;
   font-family: 'Comfortaa', cursive;
   background-color: rgb(255, 253, 250);
+  
+}
+
+button#newsbuttons:hover{
+   padding-right:1px ;
+   transition: 300ms;
 }
 div#wrapper{
     padding-top: 10px;
@@ -356,6 +365,7 @@ p#specialization{
     display: flex;
     padding: 20px;
     text-align: center;
+    align-items: center;
 
     
 }
@@ -371,12 +381,38 @@ img#footer:hover{
     color: aqua;
  
 }
-div#map{
-   flex-wrap: wrap;
-   padding: 20px;
-   padding-left: 200px;
+
+image#symbolsoftheschool{
+    text-align: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
 }
-p#development{
-    padding: 10px;
-    border: 1px solid;
+img#symbolsoftheschool{
+    width: 60px;
+    height: 60px;
+}
+div#other{
+    
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top:100px ;
+    align-items: center;
+}
+button#other{
+    height: 20px;
+    border: 0px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5px;
+    align-items: center;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+}
+button#other:hover{
+    background-color: antiquewhite;
+    transition: 500ms;
+    text-align: center;
+    
 }
